@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+.box-degrade {
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-45deg, #f50737c5, #05BBFF, #f9ec00a9);
+    background-size: 500% 100%;
+    animation: degrade-animation 5s infinite alternate;
+}
+
+.box-degrade h1{
+    color: rgba(255, 255, 255, 0.555);
+    font-weight: lighter;
+    font-size: 5em;
+}
+
+@keyframes degrade-animation{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
+
+}

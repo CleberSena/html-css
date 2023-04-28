@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faivicon.ico.png" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(250, 235, 215, 0.555);
+        }
+        a {
+           color: red;
+           text-decoration: none; 
+           font-weight: bolder;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color:blue;
+        } 
+
+        .especial{
+            background-color:rgba(128, 255, 0, 0.459);
+        }
+
+        a::before{
+            content: '⇨';
+            color: blue;
+        }
+
+        a::after{
+            content: '⇦';
+            color: #ff0000;
+        }
+
+        h1{
+            text-align: center;
+            background-color: aqua;
+            color: #ff0000;
+            margin: auto;
+            width: 50%;
+            font-weight: bolder;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+        <ul>
+            <li><a href="https://github.com/CleberSena" target="_blank" rel="externa" class="especial">Meu repositório Github</a></li>
+            <li><a href="https://youtube.com/cursoemvideo/" target="_blank" rel="externa">Cana do Youtube</a></li>
+            <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="externa">Site do CursoemVideo</a></li>
+        </ul>
+</body>
+</html>

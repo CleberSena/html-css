@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faivicon.ico.png" type="image/x-icon">
+    <title>Vídios Com HTML5</title>
+    <style>
+        body {
+            background-color: darkcyan;
+        }
+        h1 {
+            background-color: chartreuse;
+            text-align: center;
+            margin: 5%;25%;3%;25%; 
+            
+        }
+        p {
+            text-indent: 50px; color: blue; font-size: 20px;
+        }
+        hr {
+            background-color: white; font-size: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inserindo vídeos Hospedados Localmente</h1>
+       <hr>
+    <p>Este vídeo está Hospedado no meu próprio servidor.</p>
+    <video width="560" poster="imagem/limoes-capa.png" controls loop>
+         <source src="midia/meu4-video.mp4" type="video/mp4">
+         <source src="midia/meu3-video.m4v" type="video/mp4">
+         <source src="midia/meu2-video.webm" type="video/webm">
+         <source src="midia/meu1-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <h1>Inserindo Vídeos do Youtube</h1> 
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/45FZzTJDOy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+</body>
+</html>

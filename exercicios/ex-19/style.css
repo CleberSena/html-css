@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+main{
+    box-shadow: 7px 5px 10px #8c3e357a;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(190, 255, 188);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color:  rgb(5, 160, 0);;
+}
+
+h1#principal{ 
+    margin: auto;
+    width: 600px;
+    border-radius: 20px;
+    background-color: rgba(222, 184, 135, 0.493);
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: 400;
+    font-size: 3em;
+    color: rgba(67, 67, 245, 0.76);
+}
+
+.basico{
+    border-radius: 5px; 
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:  rgba(226, 19, 19, 0.829);
+    background-color: rgba(238, 86, 218, 0.534);
+    width: 167px;
+    font-size: 2em;
+    padding: 5px;
+}
+.intermediario{
+    border-radius: 5px;
+    font-family: 'Titan One', cursive; serif;
+    color: deeppink;
+    background-color: rgba(221, 159, 159, 0.534);
+    width: 322px;
+    font-size: 2em;
+    padding: 5px;
+}
+.avançado{
+    border-radius: 5px;
+    font-family: 'Creepster', cursive;
+    color: rgb(15, 1, 136);
+    background-color: rgba(136, 184, 147, 0.822);
+    width: 190px;
+    font-size: 2em;
+    padding: 5px;
+} p{
+    font-size: 20px;
+    text-indent: 50px;
+    text-align: justify;
+    padding: 5px;
+}
